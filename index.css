@@ -1,3 +1,216 @@
+/* .grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+} */
+
+h1 {
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+
 body{
-    background-color: red;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #101214; */
+    /* color: #7A7C80; */
+
+}
+
+h2,.white{
+    color: #fff;
+}
+.margin2 img {
+    margin-right: 10px;
+}
+
+a{
+    color: #0a0a0a;
+    text-decoration: none;
+}
+.logo{
+    margin: right;
+}
+/* .section-1{
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* section 2 */
+/* .section-2{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+/* animations / utilities */
+/*
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+} */
+
+li{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover{
+    background-color: #5781e4;
+}  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#23228D;
+  }
+.margin{
+    margin-top: 115px;
+    margin-left: 100px;
+}
+.margin button {
+    padding: 4px 30px;
+    border-radius: 10px;
+}
+.margin2{
+    margin-top: 140px;
+    margin-left: 150;
+}
+.margin2 p{
+    color: rgb(55, 55, 56);
+}
+.about{
+    margin-top: 100px;
+    border-radius: 100%;
+}
+.about img {
+    border-radius: 50%;
+    margin-top: 60px;
+}
+.aboutt{
+    margin-top: 100px;
+    margin-right: 100px;
+    border-radius: 100%;
+    /* position: relative;
+    left: 60%; */
+}
+.aboutt img {
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+
+.about-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.aboutt-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .grid-2 {
+        grid-template-columns: 1fr; /* Stack items in single column */
+    }
+
+    .margin {
+        margin: 2rem; /* Responsive margin for smaller screens */
+    }
+
+    .margin button {
+        padding: 0.5rem 1.5rem; /* Smaller button size on smaller screens */
+    }
+    
+    ul {
+        text-align: center;
+    }
+
+    li {
+        float: none; /* Stack navigation items vertically */
+        display: inline-block;
+    }
+
+    li a {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Reduce font size for very small screens */
+    }
+
+    .margin button {
+        width: 100%; /* Full-width button for smaller screens */
+    }
 }
